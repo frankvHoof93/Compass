@@ -1,0 +1,15 @@
+Grab Accel(a,b,c) from Input.acceleration
+
+Invert axes where needed (Accel(a,b,c) -> Accel(-a,-b,-c))
+
+Transform to NED (Accel(-a,-b,-c) -> Accel(X, Y, Z)
+
+
+Vector3 test = new Vector3(8, 1, 2);
+test(a,b,c)
+bool[] invert = new bool[] { true, false, true };
+(test becomes (-8, 1, -2)
+Axes[] axes = new Axes[] { Axes.Z, Axes.X, Axes.Y };
+output = test(c, a, b)  (a = z-axis, b = x-axis, c = y-axis)
+Vector3 output = Utils.TransformVector(test, axes, invert);
+// expected output: (-2, -8, 1)

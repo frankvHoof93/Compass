@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2017
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tilt-CompensatedCompass", "Tilt-CompensatedCompass.csproj", "{AB719519-E420-474C-4D01-1BE881482748}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tilt-CompensatedCompass.Editor", "Tilt-CompensatedCompass.Editor.csproj", "{3021AE2B-5A12-D8EE-B53A-1200D3690B52}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{AB719519-E420-474C-4D01-1BE881482748}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB719519-E420-474C-4D01-1BE881482748}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB719519-E420-474C-4D01-1BE881482748}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3021AE2B-5A12-D8EE-B53A-1200D3690B52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3021AE2B-5A12-D8EE-B53A-1200D3690B52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3021AE2B-5A12-D8EE-B53A-1200D3690B52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3021AE2B-5A12-D8EE-B53A-1200D3690B52}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
